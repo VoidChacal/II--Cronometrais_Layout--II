@@ -1,0 +1,91 @@
+
+<ion-content [fullscreen]="true">
+  <div class="BackGround2">
+    <div class="menu menu2" onclick="menuIcon(this, '#MenuLeft', ['fa-solid fa-bars','fa-solid fa-xmark'],1,['var(--corC)','var(--corB)'])">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="header">
+       
+        
+            <div class="ion-page" id="main-content">
+              <ion-header>
+                <ion-toolbar>
+                  <div class="perfil" style="background-image: url('../../assets/imgs/perfil.png')" (click)="(showEdit)"></div>
+                            <div class="title">Cronometrais</div>
+                            <div class="PerfilMost" id="MenuLeft">
+                              <div class="Main">
+                                  <img src="../../assets/imgs/perfil.png" class="perfilMain">
+                              </div>
+                            </div>
+                  <ion-buttons slot="end">
+                    <ion-menu-button></ion-menu-button>
+                  </ion-buttons>
+                  </ion-toolbar>
+                  </ion-header>
+            </div>
+    </div>
+    <div class="most">
+        <ion-menu contentId="main-content" side="end">
+            <ion-header>
+              <ion-toolbar>
+                <ion-title>Menu Content</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content class="ion-padding">This is the menu content.</ion-content>
+        </ion-menu>
+            
+        <div class="map">
+            <button class="btnMap">Ver no Mapa</button>
+        </div>
+        <div class="ADD">
+            <div class="pages">
+                <div class="Page">
+                    <img src="../../assets/imgs/Bussy.png" class="slide">
+                </div>
+                <div class="Page">
+                    <img src="../../assets/imgs/Bussy.png" class="slide">
+                </div>
+                <div class="Page">
+                    <img src="../../assets/imgs/Bussy.png" class="slide">
+                </div>
+                <div class="Page">
+                    <img src="../../assets/imgs/Bussy.png" class="slide">
+                </div>
+                <div class="Page">
+                    <img src="../../assets/imgs/Bussy.png" class="slide">
+                </div>
+            </div>
+        </div>
+        <h2 class="TitleTextCard">Ônibus que circulam em seu estado</h2>
+        <div class="conteudo">
+            <div class="scrollConted">
+                <div class="ulConteudo">
+                    <img src="../../assets/imgs/Bussy.png">
+                    <button class="btn">Ônibus Jectibas</button>
+                </div>
+                <div class="ulConteudo">
+                    <img src="../../assets/imgs/Bussy.png">
+                    <button class="btn">Ônibus Jectibas</button>
+                </div>
+                <div class="ulConteudo">
+                    <img src="../../assets/imgs/Bussy.png">
+                    <button class="btn">Ônibus Jectibas</button>
+                </div>
+            </div>
+        </div>
+        <h2 class="TitleTextCard">Vans que circulam em seu estado</h2>
+        <div class="conteudo">
+            <div class="scrollConted">
+                <div class="ulConteudo">
+                    <img src="../../assets/imgs/Van.png">
+                    <button class="btn">Van Jectibas</button>
+                </div>
+                <div class="ulConteudo">
+                    <img src="../../assets/imgs/Van.png">
+                    <button class="btn">Van Jectibas</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</ion-content>

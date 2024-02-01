@@ -1,0 +1,26 @@
+@import '../../assets/css/home.css';
+
+h2{
+    margin-top: 3vw;
+    font-size: 23px;
+}
+.title{
+    left: 12vh;
+    bottom: 6vw;
+    position: relative;
+}
+
+.perfil{
+    left: 2vh;
+    top: 7vw;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0 0 0 /50%);
+    display: none;
+  }

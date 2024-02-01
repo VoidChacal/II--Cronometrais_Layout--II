@@ -1,0 +1,91 @@
+<ion-content [fullscreen]="true">
+  <div class="BackGround2">
+    <div class="menu menu2" onclick="menuIcon(this, '#MenuLeft', ['fa-solid fa-bars','fa-solid fa-xmark'],1,['var(--corC)','var(--corB)'])">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="header">
+        <div class="perfil" style="background-image: url('../../assets/imgs/perfil.png')"></div>
+        <div class="title">Cronometrais</div>
+        
+        <div class="ion-page" id="main-content">
+            <ion-header>
+              <ion-toolbar>
+                <div class="perfil" style="background-image: url('../../assets/imgs/perfil.png')"></div>
+                          <div class="title">Cronometrais</div>
+                          <div class="PerfilMost" id="MenuLeft">
+                            <div class="Main">
+                                <img src="../../assets/imgs/perfil.png" class="perfilMain">
+                            </div>
+                          </div>
+                <ion-buttons slot="end">
+                  <ion-menu-button></ion-menu-button>
+                </ion-buttons>
+                </ion-toolbar>
+                </ion-header>
+          </div>
+
+    </div>
+    <div class="PerfilMost" id="MenuLeft">
+        <div class="top">
+            ◄-- Clique e atualize o perfil
+        </div>
+        <div class="Main">
+            <img src="../../assets/imgs/perfil.png" class="perfilMain">
+        </div>
+        <div class="info"></div>
+    </div>
+    <div class="most">
+        <div class="map">
+            <img src="../../assets/imgs/bussy2.png" class="imgbtn">
+            <a class="btnMap" href="#">
+                Ver no Mapa
+            </a>
+        </div>
+    </div>
+    <main class="Conteudo">
+        <ion-menu contentId="main-content" side="end">
+            <ion-header>
+              <ion-toolbar>
+                <ion-title style="color: black; margin-left: 24vw;">Bem-Vindo</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content class="ion-padding">
+              <a class="btnMenu" href="#">
+                Inicio
+            </a>
+            <a class="btnMenu" href="#">
+              Editar Perfil
+          </a>
+          <a class="btnMenu" href="#">
+            Localização atual
+        </a>
+        <a class="btnMenu" href="#">
+          Sair
+      </a>
+            </ion-content>
+        </ion-menu>
+        <h1>"Nome do Ônibus"</h1>
+        <div class="rating">
+            <input type="radio" name="reating" value="5" id="5"><label for="5">☆</label>
+            <input type="radio" name="reating" value="4" id="4"><label for="4">☆</label>
+            <input type="radio" name="reating" value="3" id="3"><label for="3">☆</label>
+            <input type="radio" name="reating" value="2" id="2"><label for="2">☆</label>
+            <input type="radio" name="reating" value="1" id="1"><label for="1">☆</label>
+        </div>
+        <div class="informacao">
+            <h2>Informações</h2>
+            <p>Descrição: Cor Azul</p>
+            <p>Modelo:</p>
+            <p>Placa: GSH357</p>
+            <p>Numero de Passageiros: 25</p>
+            <p>Peso suportavel: 470kg</p>
+            <img src="../../assets/imgs/BusExempl.jpg" class="imgInfo">
+        </div>
+        <div class="comentar">
+            <div class="perfilComent" style="background-image: url('../../assets/imgs/perfil.png')"></div>
+
+
+        </div>
+    </main>
+  </div>
+</ion-content>

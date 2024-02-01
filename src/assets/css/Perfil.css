@@ -1,0 +1,81 @@
+@import "preset.css";
+.background{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.ImgPerfil{
+    display: flex;
+    width: 20vw;
+    height: 9vh;
+    background-color: #2de7b9;
+    border: 3px solid #0b0025;
+    border-radius: 53px;
+    margin-top: 6vh;
+    background-image: url(../imgs/perfil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+i{
+    font-size: 2rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 2rem;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
+
+h1{
+    color: #2de7b9;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.Confirmar{
+    height: 8vh;
+    width: 38vw;
+    border: 3px solid #0b60ce;
+    border-radius: 43px;
+    background-color:#2de7b9;
+    color:black;
+    margin-top: 9vh;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 25px;
+    box-shadow: 0px 0px 23px var(
+    --corB);
+}
+
+.FormCard{
+    padding: 1rem;
+    margin-top: 0;
+    margin-left: 0;
+}    
+
+.inputText{
+        color: black;
+        background-color: #2de7b9;
+        border: 2px solid #0b0025;
+        border-radius: 5px;
+        padding: 1vh;
+        margin-top: 1rem;
+        font-size: 1.7vh;
+        font-weight: bold;
+        font-family: monospace;
+       
+}
+    .inputText::-webkit-input-placeholder{
+            color: #0b60ce;
+ }
+ .inputText:focus{
+            color: rgb(68, 56, 95);
+  }
+
+  input{
+    padding: 4rem;
+  }

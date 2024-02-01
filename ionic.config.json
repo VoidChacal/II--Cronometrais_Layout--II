@@ -1,0 +1,7 @@
+{
+  "name": "Cronometrais",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
